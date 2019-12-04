@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/duflix/precache-manifest.d95b56b734f9aa509edada6603f8b62e.js"
+  "/duflix/precache-manifest.1cb36733bbd6c121f0b40adb73390749.js"
 );
 
 self.addEventListener('message', (event) => {
