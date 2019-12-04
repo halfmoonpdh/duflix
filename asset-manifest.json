@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/duflix/static/js/main.1509cec4.chunk.js",
-    "main.js.map": "/duflix/static/js/main.1509cec4.chunk.js.map",
+    "main.js": "/duflix/static/js/main.90c472e1.chunk.js",
+    "main.js.map": "/duflix/static/js/main.90c472e1.chunk.js.map",
     "runtime-main.js": "/duflix/static/js/runtime-main.0e417a7b.js",
     "runtime-main.js.map": "/duflix/static/js/runtime-main.0e417a7b.js.map",
-    "static/js/2.606d732c.chunk.js": "/duflix/static/js/2.606d732c.chunk.js",
-    "static/js/2.606d732c.chunk.js.map": "/duflix/static/js/2.606d732c.chunk.js.map",
+    "static/js/2.ca874d47.chunk.js": "/duflix/static/js/2.ca874d47.chunk.js",
+    "static/js/2.ca874d47.chunk.js.map": "/duflix/static/js/2.ca874d47.chunk.js.map",
     "index.html": "/duflix/index.html",
-    "precache-manifest.1cb36733bbd6c121f0b40adb73390749.js": "/duflix/precache-manifest.1cb36733bbd6c121f0b40adb73390749.js",
+    "precache-manifest.83ff489beeba532a6816ab9d5308bc01.js": "/duflix/precache-manifest.83ff489beeba532a6816ab9d5308bc01.js",
     "service-worker.js": "/duflix/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.0e417a7b.js",
-    "static/js/2.606d732c.chunk.js",
-    "static/js/main.1509cec4.chunk.js"
+    "static/js/2.ca874d47.chunk.js",
+    "static/js/main.90c472e1.chunk.js"
   ]
 }
