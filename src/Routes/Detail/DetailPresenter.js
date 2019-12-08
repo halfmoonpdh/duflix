@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 import Loader from "Components/Loader";
 import Message from "Components/Message";
@@ -46,6 +47,7 @@ const Cover = styled.div`
 const Data = styled.div`
   width: 70%;
   margin-left: 10px;
+  position: relative;
 `;
 
 const Title = styled.h3`
@@ -69,6 +71,16 @@ const Overview = styled.p`
   opacity: 0.7;
   line-height: 1.5;
   width: 50%;
+`;
+
+const LinkContainer = styled.div`
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+`;
+
+const GLink = styled.a`
+  margin-right: 10px;
 `;
 
 const DetailPresenter = ({ result, loading, error }) =>
@@ -127,6 +139,28 @@ const DetailPresenter = ({ result, loading, error }) =>
             </Item>
           </ItemContainer>
           <Overview>{result.overview}</Overview>
+          <LinkContainer>
+            <GLink
+              href={`https://www.google.com/search?q=${
+                result.original_title
+                  ? result.original_title
+                  : result.original_name
+              }+다시보기`}
+              target="_blank"
+            >
+              replay
+            </GLink>
+            <GLink
+              href={`https://www.google.com/search?q=${
+                result.original_title
+                  ? result.original_title
+                  : result.original_name
+              }+torrent`}
+              target="_blank"
+            >
+              torrent
+            </GLink>
+          </LinkContainer>
         </Data>
       </Content>
     </Container>
